@@ -1,38 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happiest Nineteen Sukoon</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sukoon</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="preloader">Loading your SUKOON moment...</div>
-
-    <audio id="bg-music" autoplay loop>
-        <source src="dreamy.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
-    <nav>
-        <ul>
-            <li><a href="message.html">Message for You</a></li>
-            <li><a href="shayari.html">Shaayari</a></li>
-            <li><a href="poem.html">Poem</a></li>
-            <li><a href="playlist.html">Playlist</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <h1>Happiest nineteen SUKOON 🪻</h1>
-    </main>
-
-    <script>
-        window.addEventListener('load', () => {
-            document.getElementById('preloader').style.display = 'none';
-            document.getElementById('bg-music').play().catch(e => console.log("Autoplay blocked"));
-        });
-    </script>
+  <div class="preloader">Loading Sukoon...</div>
+  <main class="main-message">Happiest nineteen SUKOON 🪻</main>
+  <nav>
+    <a href="message.html">Message for You</a>
+    <a href="shayari.html">Shaayari</a>
+    <a href="poem.html">Poem</a>
+    <a href="playlist.html">Playlist</a>
+  </nav>
+  <audio id="bg-music" autoplay loop>
+    <source src="piano.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 </body>
 </html>
