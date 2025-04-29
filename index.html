@@ -1,51 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>For Pragati</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sukoon</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="preloader">for Pragati, loading love...</div>
-    <div id="music-controls">
-        <button onclick="toggleMusic()">Music: Piano</button>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="#main">Message</a></li>
-            <li><a href="#shaayari">Shaayari</a></li>
-            <li><a href="#poem">Poem</a></li>
-            <li><a href="#playlist">Playlist</a></li>
-        </ul>
-    </nav>
-    <section id="main">
-        <div class="message-card">
-            <p>Happiest 'nineteen' to the most amazing...</p>
-        </div>
-    </section>
-    <section id="shaayari">
-        <h2>Shaayari</h2>
-        <div class="shaayari-card">
-            <p>Yun nhi hai,<br>ke faqat main hi use chahta hu<br>Jo bhi uss ped ki chaw main gya<br>Baith gya</p>
-        </div>
-        <div class="shaayari-card">
-            <p>Na shikaayate na gila kare...<br>Kabhi chupke chupke dabe qadam<br>Mere peeche a kar hansaa kare...</p>
-        </div>
-        <div class="shaayari-card">
-            <p>Maine samjhaa tha ke tu hai to darakhshaan hai hayaat...<br>Teri aankhon ke siwaa duniyaa mein rakhkhaa kya hai</p>
-        </div>
-    </section>
-    <section id="poem">
-        <h2>Poem</h2>
-        <div class="poem-card">
-            <p>In a garden of roses who loves the thorns?...<br>For without you , I  could not be</p>
-        </div>
-    </section>
-    <section id="playlist">
-        <h2>Spotify Playlist</h2>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7cRYl7m28VCsociiGXTgF6?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </section>
+  <div class="preloader">Loading Sukoon...</div>
+  <main class="main-message">Happiest nineteen SUKOON 🪻</main>
+  <nav>
+    <a href="message.html">Message for You</a>
+    <a href="shayari.html">Shaayari</a>
+    <a href="poem.html">Poem</a>
+    <a href="playlist.html">Playlist</a>
+  </nav>
+  <audio id="bg-music" autoplay loop>
+    <source src="piano.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 </body>
 </html>
